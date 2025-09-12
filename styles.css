@@ -432,7 +432,7 @@ ul {
   padding-top: 2rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  border-left: 4px solid var(--secondary-color);
+  border-left: 8px solid var(--secondary-color);
   margin-top: 20px;
   display: flex;         /* Use flex inside the card if needed */
   flex-direction: column;
@@ -480,7 +480,7 @@ ul {
 /* Skills Section */
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   gap: 2rem;
 }
 
